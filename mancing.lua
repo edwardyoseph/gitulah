@@ -73,6 +73,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
+            "Singularity Bait",
         },
     },
     ["Rod List"] = {
