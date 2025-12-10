@@ -88,7 +88,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
             ["Fisherman Island"] = {"Starter Rod"}, -- Do not change
             ["Kohana Volcano"] = {"Grass Rod"},
-            ["Esoteric Depths"] = {"Ares Rod","Angler Rod", "Ares Rod","Chrome Rod","Midnight Rod"}
+            ["Esoteric Depths"] = {"Ares Rod","Angler Rod", "Ares Rod","Chrome Rod","Midnight Rod"},
             ["Ocean"] = {"Ghostfinn Rod","Astral Rod","Element Rod"},
         },
     },
@@ -104,4 +104,4 @@ _G.FishItConfig = _G.FishItConfig or {
 script_key="AB3B2717A381042BFE1480323A956B8D";
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua"))()
