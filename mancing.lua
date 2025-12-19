@@ -99,6 +99,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoRemovePlayer"] = true,
     ["AutoReconnect"] = true,
     ["HideGUI"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = false,
 }                   
 
 script_key="AB3B2717A381042BFE1480323A956B8D";
